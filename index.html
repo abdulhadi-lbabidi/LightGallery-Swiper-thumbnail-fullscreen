@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Light Gallery and Swiper Thumbnail Slider</title>
+        <link rel="stylesheet" href="./static/css/style.css" />
+        <link
+            href="./static/css/bootstrap.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="./static/css/swiper-bundle.min.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css"
+            integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="backmate">
+            <div class="container-fluid cover">
+
+            </div>
+            <div class="container-fluid mt-2">
+                <div class="row ">
+                    <div class="col-lg-6 p-3">
+                        <h4>project name</h4>
+                        <h1>Villa Complex</h1>
+                    </div>
+                    <div class="col-lg-6 p-3">
+                        <h4>project style</h4>
+                        <h1>new classic</h1>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row flex-lg-row-reverse flex-xl-row-reverse ">
+                        <div class="col-lg-6 p-3">
+                            <div class="elvat-container p-3 rounded">
+                                <div
+                                    style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                                    class=" swiper mySwiper2">
+                                    <div class="  swiper-wrapper"
+                                        id="lg-swipper">
+                                        <a data-lg-size="1600-1144"
+                                            class="swiper-slide"
+                                            data-src="https://images.unsplash.com/photo-1476842384041-a57a4f124e2e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1600&q=80">
+                                            <img class="img-responsive"
+                                                src="https://images.unsplash.com/photo-1476842384041-a57a4f124e2e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1200&q=80" />
+                                        </a>
+                                        <a data-lg-size="1600-1067"
+                                            class="swiper-slide"
+                                            data-src="https://images.unsplash.com/photo-1505820013142-f86a3439c5b2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1600&q=80">
+                                            <img class="img-responsive"
+                                                src="https://images.unsplash.com/photo-1505820013142-f86a3439c5b2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1200&q=80" />
+                                        </a>
+                                        <a data-lg-size="1600-1067"
+                                            class="swiper-slide"
+                                            data-src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1600&q=80">
+                                            <img class="img-responsive"
+                                                src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1200&q=80" />
+                                        </a>
+
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                                <div thumbsSlider class="my-2 swiper mySwiper">
+                                    <div class=" rounded swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img
+                                                src="img/ss.jpg" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img
+                                                src="img/ss.jpg" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img
+                                                src="img/ss.jpg" />
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-6 px-0 my-3">
+                            <div class="d-flex det-card">
+                                <img src="./img/orcid.png"
+                                    class="px-2 detail-img" alt>
+                                <div class="h-divider mx-2"></div>
+                                <div class="text">
+                                    <h6>Work ID</h6>
+                                    <h5>W 75</h5>
+                                </div>
+                            </div>
+                            <div
+                                class="d-flex  det-card mt-4">
+                                <img src="./img/country.png"
+                                    class="px-2 detail-img" alt>
+                                <div class="h-divider mx-2"></div>
+                                <div class="text">
+                                    <h6>Location</h6>
+                                    <h5>Syrian Arab Rebublic <br>
+                                        Aleppo City <br>
+                                        St. Waddah Al Yamamah
+                                    </h5>
+                                </div>
+                            </div>
+                            <div
+                                class="d-flex det-card mt-4">
+                                <img src="./img/front-view.png"
+                                    class="px-2 detail-img" alt>
+                                <div class="h-divider mx-2"></div>
+                                <div class="text">
+                                    <h6>Area</h6>
+                                    <h5>200 M<sup>2</sup> </h5>
+                                </div>
+                            </div>
+                            <div
+                                class="d-flex det-card mt-4">
+                                <img src="./img/layers.png"
+                                    class="px-2 detail-img" alt>
+                                <div class="h-divider mx-2"></div>
+                                <div class="text">
+                                    <h6>Floors</h6>
+                                    <h5>12 </h5>
+                                </div>
+                            </div>
+                            <div
+                                class="d-flex det-card mt-4">
+                                <img src="./img/tv-area.png"
+                                    class="px-2 detail-img" alt>
+                                <div class="h-divider mx-2"></div>
+                                <div class="text">
+                                    <h6>Rooms</h6>
+                                    <h5>120 </h5>
+                                </div>
+                            </div>
+                            <div
+                                class="d-flex det-card mt-4">
+                                <img src="./img/share.png"
+                                    class="px-2 detail-img" alt>
+                                <div class="h-divider mx-2"></div>
+                                <div class="text">
+                                    <h6>Links</h6>
+                                    <div class="social-med d-flex">
+                                        <img src="img/facebook.png"
+                                            class="soc-link" alt>
+                                        <img src="img/instagram.png"
+                                            class="soc-link" alt>
+                                        <img src="img/linkedin.png"
+                                            class="soc-link" alt>
+                                        <img src="img/behance.png"
+                                            class="soc-link" alt>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap 5 -->
+        <script
+            src="./static/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Swiper JS -->
+        <script
+            src="./static/js/swiper-bundle.min.js"></script>
+        <script
+            src="./static/js/lightgallery.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+            let $lgSwiper = document.getElementById("lg-swipper");
+        var swiper = new Swiper(".mySwiper", {
+          loop: true,
+          spaceBetween: 10,
+          slidesPerView: 4,
+          freeMode: true,
+          watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+          loop: true,
+          spaceBetween: 10,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          thumbs: {
+            swiper: swiper,
+          },
+          on: {
+    init: function () {
+      const lg = lightGallery($lgSwiper, {
+        speed: 300
+      });
+      $lgSwiper.addEventListener("lgBeforeClose", () => {
+        swiper.slideTo(lg.index, 0);
+      });
+    }}
+        });
+      </script>
+    </body>
+</html>

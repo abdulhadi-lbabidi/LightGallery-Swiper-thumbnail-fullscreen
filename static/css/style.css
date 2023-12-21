@@ -1,0 +1,153 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Michroma:400|Roboto:400");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+
+:root {
+  --mutedcolor: rgba(120, 133, 143, 1);
+  --headline-h5-font-family: "Roboto-Medium", Helvetica;
+  --headline-h5-font-weight: 500;
+  --headline-h5-font-size: 20px;
+  --headline-h5-letter-spacing: 0px;
+  --headline-h5-line-height: normal;
+  --headline-h5-font-style: normal;
+}
+
+
+.backmate{
+  background: #2e2c2c;
+}
+
+
+
+h4{
+  font-family: "Michroma", Helvetica;
+  font-weight: 400;
+  color: #a8a8a8;
+  text-transform:capitalize ;
+  font-size: 20px;
+}
+h1{
+  font-family: "Michroma", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform:capitalize ;
+  font-size: 20px;
+}
+.h-divider{
+  background-color: #ffffff;
+  width: 2px;
+}
+
+h5{
+  font-family: "Michroma", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20em;
+  text-transform:capitalize ;
+  line-height: 1.7rem;
+}
+
+h6{
+  font-family: "Michroma", Helvetica;
+  font-weight: 400;
+  color: #a8a8a8;
+  text-transform:capitalize ;
+}
+.detail-img{
+  height: 75px;
+}
+
+.social-med{
+  height: 40px;
+}
+
+.elvat-container{
+  background-color: rgb(105 105 105 / 80%);
+  box-shadow: #00000073 0px 0px 5px 5px;
+}
+
+
+
+
+/* swiper Styles */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body {
+  background: #d1d1d1;
+  color: #ffffff;
+}
+
+.swiper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
