@@ -4,5 +4,5 @@ this is Light Gallery and Swiper Slider Thumbnail are Combined Togather made by 
 # Demo :zap:
 [ Demo ](https://abdulhadi-lbabidi.github.io/LightGallery-Swiper-thumbnail-fullscreen)
 
-#licence
+# licence
 This ex is free to use any where
